@@ -1,0 +1,32 @@
+
+
+.clase1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:  40px;
+    text-align: center;
+
+}
+
+.clase2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:  30px;
+}
+
+.clase3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size:  15px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#p9{
+    background-color: fuchsia;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+
+  }
