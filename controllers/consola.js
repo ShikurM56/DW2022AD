@@ -40,11 +40,13 @@ exports.postTarea2_f = (req, res) => {
 exports.postTarea2_p = (req, res) => {
     console.log(req.body)
     let a = req.body.palimdrome
-    const resultado = a.split("")
+    let asd = a.replace(/\s+/g, ''); 
+    console.log(asd)
+    const resultado = asd.split("")
     const reversa = resultado.reverse()
     const reversa_string = reversa.join("")
     let palindromeStatus = ""
-    if (a == reversa_string){
+    if (asd == reversa_string){
         console.log("Es palindrome")
         palindromeStatus = "Es palindrome"
     }
